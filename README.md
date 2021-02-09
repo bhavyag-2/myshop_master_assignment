@@ -1,4 +1,7 @@
 # myshop_master_assignment
+npm install 
+npm start
+
 Tech Stack Used:
 
 Create React App (Boilerplate for ReactJS)
