@@ -1,0 +1,30 @@
+@import "../../../assets/scss/breakpoints";
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  .dropdown-body {
+    top: 4rem;
+    // max-width: 25rem;
+    // max-height: 25rem;
+    display: none;
+    background-color: #ffffff;
+    position: absolute;
+    width: 99%;
+    border: 2px solid #9e9999;
+    border-radius: 7px;
+    @include tablet-landscape {
+      width: auto;
+    }
+    &.show {
+      display: block;
+    }
+    .arrow-up {
+      position: absolute;
+      top: -9px;
+      left: 48%;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid white;
+    }
+  }
+}

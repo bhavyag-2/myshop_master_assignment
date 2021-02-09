@@ -1,0 +1,31 @@
+//responsive break points
+@mixin mobile-portrait {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+@mixin mobile-landscape {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet-portrait {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin tablet-landscape {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+@mixin big-desktop {
+  @media (min-width: 1500px) {
+    @content;
+  }
+}

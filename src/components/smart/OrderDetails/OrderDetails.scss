@@ -1,0 +1,54 @@
+@import "../../../assets/scss/breakpoints";
+.order-details-container {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  .order-details {
+    .address-container {
+      display: inline-block;
+    }
+    .btn-container {
+      margin-top: 1rem;
+      @include tablet-landscape {
+        width: 50%;
+      }
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 1rem;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      .btn-primary {
+        color: white;
+        background-color: #2a05ca;
+        border-color: #2a05ca;
+      }
+    }
+  }
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    @include tablet-landscape {
+      flex-wrap: unset;
+    }
+    .card {
+      max-width: 100%;
+      flex-wrap: nowrap;
+
+      .card-body {
+        padding: 0 0 0 1rem;
+      }
+      .details {
+        display: flex;
+        flex-direction: column;
+        height: 95%;
+        justify-content: space-between;
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

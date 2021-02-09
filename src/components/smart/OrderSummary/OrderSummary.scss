@@ -1,0 +1,20 @@
+.order-summary-container {
+  display: flex;
+  max-height: 50vh;
+  overflow-y: auto;
+  flex-direction: column;
+  .summary {
+    .details {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem 0;
+      h4 {
+        margin: 0;
+        padding: 3px 0;
+      }
+      small {
+        padding: 2px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../../assets/scss/breakpoints";
+.status-bar-container {
+  display: flex;
+  justify-content: center;
+  .status-bar {
+    flex: 1;
+    margin-right: 1rem;
+    &.relative {
+      position: relative;
+      z-index: -1;
+    }
+    .svg {
+      border-bottom: 4px solid;
+
+      text-align: center;
+      svg {
+        height: 32px;
+        width: 32px;
+      }
+    }
+    h6 {
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+      font-size: 13px;
+    }
+    .order-delay {
+      color: #f82121;
+      position: absolute;
+      top: 20px;
+      font-size: 25px;
+      left: 40%;
+      @include tablet-landscape {
+        left: 48%;
+      }
+    }
+  }
+}
