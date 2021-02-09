@@ -20,6 +20,9 @@ Order Shipped
 Order NotShipped
 ![image](https://user-images.githubusercontent.com/78673068/107422390-916d2580-6ae0-11eb-9a62-4d7ef3a207e1.png)
 
+order DelayedShipping UserAccepted
+![image](https://user-images.githubusercontent.com/78673068/107423895-96cb6f80-6ae2-11eb-9292-7c83d7a65c65.png)
+
 Mobile Failed shipment
 ![image](https://user-images.githubusercontent.com/78673068/107418897-cf684a80-6adc-11eb-8d93-05ea0d725e07.png)
 
