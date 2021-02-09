@@ -1,6 +1,6 @@
 # myshop_master_assignment
-npm install 
-npm start
+npm install and 
+npm start 
 
 Tech Stack Used:
 
