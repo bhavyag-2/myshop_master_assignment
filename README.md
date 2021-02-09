@@ -1,11 +1,13 @@
 # myshop_master_assignment
 Tech Stack Used:
-Create React App(Boilerplate for ReactJS)
-Syntactically Awesome Style Sheet(SCSS with mixins for multiple devices viewport) and Node-sass module
-React Hooks e.g. useState,useEffect
+
+Create React App (Boilerplate for ReactJS)
+Syntactically Awesome Style Sheet (SCSS with mixins for multiple devices viewport) and Node-sass module
+React Hooks e.g., useState, useEffect
 React router dom
-Presentaional and functional components
-Promises and Javascript
+Presentational and functional components
+Promises and JavaScript
+
 
 
 Mobile Failed shipment
